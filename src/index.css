@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Gil Roy";
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    color: black;
+}
+
+@font-face {
+    font-family: "neue";
+    src: url("./Fonts/NeueMontreal-Regular.ttf");
+}
+
+@font-face {
+    font-family: "fndrs";
+    src: url("./Fonts/FoundersGrotesk-Semibold.ttf");
+}
